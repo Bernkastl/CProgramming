@@ -7,6 +7,8 @@ int main(void)
   printf("Enter a two-digit number: ");
   scanf("%d", &num);
 
+  printf("The reversal is: ");
+
   int first = num % 10;
   printf("%d", first);
 
