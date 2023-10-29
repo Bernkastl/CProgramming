@@ -4,7 +4,7 @@ int main(void)
 {
 
   int num;
-  printf("Enter a two-digit number: ");
+  printf("Enter a three-digit number: ");
   scanf("%d", &num);
 
   int first = num % 10;
