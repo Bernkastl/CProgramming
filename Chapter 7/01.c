@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/* smallest values that cause failures when we change the type of i
+ * int 46341 (32 bits)
+ * short 182 (16 bits)
+ * long 46341 (32 bits)
+/*
+
 int main(void)
 {
   int n;
