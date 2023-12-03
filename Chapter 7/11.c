@@ -11,7 +11,12 @@ int main(void)
     continue;
 
   char c;
-  while ((c = getchar()) != '\n')
+  while ((c = getchar()) == ' ')
+    continue;
+
+  printf("%c", c);
+
+  while ((c = getchar()) != ' ' && c != '\n')
   {
     putchar(c);
   }
