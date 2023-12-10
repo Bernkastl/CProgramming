@@ -16,7 +16,7 @@ int main(void)
       y = avg;
   } while (fabs(prev_y - y) > 0.00001);
   
-  printf("Square root: %f", y);
+  printf("Square root: %.5f", y);
 
   return 0;
 }
